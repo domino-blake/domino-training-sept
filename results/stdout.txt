@@ -1,0 +1,37 @@
+[W 2024-09-16 16:40:54.684 ServerApp] notebook_dir is deprecated, use root_dir
+[I 2024-09-16 16:40:54.767 ServerApp] jupyter_server_mathjax | extension was successfully linked.
+[I 2024-09-16 16:40:54.767 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[W 2024-09-16 16:40:54.770 LabApp] 'iopub_data_rate_limit' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-09-16 16:40:54.770 LabApp] 'disable_check_xsrf' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-09-16 16:40:54.777 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-09-16 16:40:54.777 ServerApp] jupyterlab_git | extension was successfully linked.
+[I 2024-09-16 16:40:54.784 ServerApp] nbclassic | extension was successfully linked.
+[I 2024-09-16 16:40:54.784 ServerApp] nbdime | extension was successfully linked.
+[I 2024-09-16 16:40:54.785 ServerApp] Writing Jupyter server cookie secret to /home/ubuntu/.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2024-09-16 16:40:54.928 ServerApp] notebook_shim | extension was successfully linked.
+[W 2024-09-16 16:40:54.945 ServerApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 2024-09-16 16:40:54.947 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-09-16 16:40:54.948 ServerApp] jupyter_server_mathjax | extension was successfully loaded.
+[I 2024-09-16 16:40:54.957 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2024-09-16 16:40:54.958 LabApp] JupyterLab extension loaded from /opt/conda/lib/python3.9/site-packages/jupyterlab
+[I 2024-09-16 16:40:54.958 LabApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 2024-09-16 16:40:54.961 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-09-16 16:40:54.968 ServerApp] jupyterlab_git | extension was successfully loaded.
+[I 2024-09-16 16:40:54.971 ServerApp] nbclassic | extension was successfully loaded.
+[I 2024-09-16 16:40:55.012 ServerApp] nbdime | extension was successfully loaded.
+[I 2024-09-16 16:40:55.013 ServerApp] Serving notebooks from local directory: /
+[I 2024-09-16 16:40:55.013 ServerApp] Jupyter Server 1.23.3 is running at:
+[I 2024-09-16 16:40:55.013 ServerApp] http://run-66e85f79faf2857ae8d38508-85267:8888/blake_moore/WineQuality/notebookSession/66e85f79faf2857ae8d38508/lab/tree/mnt
+[I 2024-09-16 16:40:55.013 ServerApp]  or http://127.0.0.1:8888/blake_moore/WineQuality/notebookSession/66e85f79faf2857ae8d38508/lab/tree/mnt
+[I 2024-09-16 16:40:55.013 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2024-09-16 16:40:58.245 ServerApp] 302 GET /blake_moore/WineQuality/notebookSession/66e85f79faf2857ae8d38508/ (127.0.0.1) 0.64ms
+[I 2024-09-16 16:40:58.414 ServerApp] 302 GET /blake_moore/WineQuality/notebookSession/66e85f79faf2857ae8d38508/ (127.0.0.1) 0.40ms
+[I 2024-09-16 16:41:00.801 LabApp] Build is up to date
+[E 2024-09-16 16:41:27.083 ServerApp] {
+      "Host": "run-66e85f79faf2857ae8d38508.domino-compute.svc.cluster.local:8765",
+      "Accept": "*/*",
+      "Referer": "https://fogpharma.domino.tech/blake_moore/WineQuality/notebookSession/66e85f79faf2857ae8d38508/lab/tree/repos/domino-training-sept",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+    }
+[E 2024-09-16 16:41:27.084 ServerApp] 500 POST /blake_moore/WineQuality/notebookSession/66e85f79faf2857ae8d38508/git/repos/domino-training-sept/log?1726504886890 (127.0.0.1) 5.14ms referer=https://fogpharma.domino.tech/blake_moore/WineQuality/notebookSession/66e85f79faf2857ae8d38508/lab/tree/repos/domino-training-sept
+[I 2024-09-16 16:41:31.769 ServerApp] New terminal with automatic name: 1
